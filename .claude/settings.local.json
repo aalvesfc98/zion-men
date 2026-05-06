@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(node --version)",
+      "PowerShell(npm --version)",
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"c:\\\\Users\\\\Felipe Alves\\\\Documents\\\\ZION_MEN\\\\prisma\")",
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"c:\\\\Users\\\\Felipe Alves\\\\Documents\\\\ZION_MEN\\\\src\\\\app\")",
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"c:\\\\Users\\\\Felipe Alves\\\\Documents\\\\ZION_MEN\\\\src\\\\components\\\\ui\")",
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"c:\\\\Users\\\\Felipe Alves\\\\Documents\\\\ZION_MEN\\\\src\\\\lib\")",
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"c:\\\\Users\\\\Felipe Alves\\\\Documents\\\\ZION_MEN\\\\src\\\\types\")",
+      "PowerShell(cd \"c:\\\\Users\\\\Felipe Alves\\\\Documents\\\\ZION_MEN\"; npm install; Write-Output \"INSTALL_EXIT:$LASTEXITCODE\")",
+      "PowerShell(cd \"c:\\\\Users\\\\Felipe Alves\\\\Documents\\\\ZION_MEN\"; npx prisma generate; Write-Output \"PRISMA_EXIT:$LASTEXITCODE\")",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ]
+  }
+}
